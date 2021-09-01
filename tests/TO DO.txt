@@ -1,0 +1,1 @@
+-After testing the different types of dropouts, also test all different dropout versions with doubled features (NGF and NDF = 128)
