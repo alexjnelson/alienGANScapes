@@ -1,0 +1,39 @@
+-name: StarSeed
+	-you seed the GAN based on your wallet
+	-space implications
+	-cool name
+
+-an NFT is seeded by a wallet's public ID and the current week/day/sm of issuance
+	-it is thus deterministic
+-the derived seed is hashed and plugged into the GAN
+-it should be essentially impossible for two seeds to be equal
+
+-a person should definitely be able to preview the NFT
+-BUT it will be heavily watermarked, probably a tasteful "STARSEED" in the middle
+
+-sample eth address:
+0x6239eb3102218F53D4B3413e2d58E114C4C62caE
+
+
+ARCHITECTURE CONSIDERATIONS
+-try starting with a higher LR on the generator, but decaying at a faster rate
+-learns to geenrate good images faster, but later fine-tunes while the discriminator
+better learns to differentiate niche things
+
+
+BUSINESS CONSIDERATIONS
+
+-TO SEED THE GENERATOR:
+< contract address >< "NELL" >< recepient address >< UTC Release Date YYYY/MM/DD >
+
+-try to register domain as an ETH address
+
+-create twitter to display generated art that gets sold from the pool
+-at the beginning, i will mint the art and then sell it on a marketplace
+	-try to raise awareness this way
+
+
+47,986,179
+11,168,321
+
+33,554,432
