@@ -22,6 +22,7 @@ OPTIONAL: You can do the exact same workflow on a Pixabay page using the scrapeP
 3. Convert all PNG and WEBP images to JPEG by running te convert_jpeg.py script. By default this will only output the paths of the images to be converted so you can verify it is correct. If you wish to actually convert the images, run the script with flag "-c 1". If you have changed the location of the images, also run with flag "-d {path to dataset}". NOTE that this script will convert images in-place and will not duplicate the dataset.
 
 <b>Train GAN Model</b>
+
 To train the model on the created dataset from scratch, run the command:
 ```
 python dcgan.py -m 1
