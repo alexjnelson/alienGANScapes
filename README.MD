@@ -1,5 +1,8 @@
-STEP-BY-STEP USAGE:
+# Alien GANScapes
+This project was created to generate images for a gallery of AI-generated art. The theme of the pieces is "out-of-this-world" landscapes. To generate these pieces, a [generative adversarial neural network](https://en.wikipedia.org/wiki/Generative_adversarial_network (GAN)) was trained on a dataset of otherworldly images. The dataset was created by scraping web sources for images of various landscapes on Earth which are very rare, such as [Socotra Island](https://www.nationalgeographic.com/environment/article/socotra-yemen-biodiversity-photography). To train this model yourself to generate images of up to 1024x1024 pixels, it is recommended that you have GPU RAM of at least 16GB.
 
+
+# Step-by-Step Usage:
 COMPILING IMAGES TO INCLUDE IN THE DATASET
 1. Go to google images and search for the desired query.
 2. Scroll down to the last image you want to download. Every image that you scroll to will be downloaded into the dataset.
