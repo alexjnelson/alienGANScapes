@@ -10,7 +10,7 @@ This project was created to generate images for a gallery of AI-generated art. T
 4. Save the URL textfile in the desired location. Recommended folder (default for download_images.py script later) is "./urls".
 5. Repeat for all of the different queries you wish to include in the dataset.
 
-OPTIONAL: You can do the exact same workflow on a Pixabay page using the scrapePixabay script. Just paste it into the console on the page on ulrs you wish to download.
+OPTIONAL: You can do the exact same workflow on a Pixabay page using the scrapePixabay script. Just paste it into the console on the page on urls you wish to download.
 
 <b>Download images to local</b>
 1. Run the download_images.py file, setting url_folder to the location of the downloaded URL textfiles.
