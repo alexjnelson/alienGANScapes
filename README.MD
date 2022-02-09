@@ -3,7 +3,7 @@ This project was created to generate images for a gallery of AI-generated art. T
 
 
 # Step-by-Step Usage:
-<b>Compiling images to include in the dataset</b>
+<b>Compile images to include in the dataset</b>
 1. Go to google images and search for the desired query.
 2. Scroll down to the last image you want to download. Every image that you scroll to will be downloaded into the dataset.
 3. Paste the "scrapeGoogle.js" script into the console and press Enter to get the download URLs for these images from Google.
